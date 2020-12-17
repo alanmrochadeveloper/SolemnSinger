@@ -1,0 +1,65 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\alanm_070tplb\\source\\repos\\projects\\Solemn_Singer\\solemnsinger\\solemnsinger\\solemnsinger.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\alanm_070tplb\\source\\repos\\projects\\Solemn_Singer\\solemnsinger\\solemnsinger\\solemnsinger.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alanm_070tplb\\source\\repos\\projects\\Solemn_Singer\\solemnsinger\\solemnsinger\\solemnsinger.csproj",
+        "projectName": "solemnsinger",
+        "projectPath": "C:\\Users\\alanm_070tplb\\source\\repos\\projects\\Solemn_Singer\\solemnsinger\\solemnsinger\\solemnsinger.csproj",
+        "packagesPath": "C:\\Users\\alanm_070tplb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alanm_070tplb\\source\\repos\\projects\\Solemn_Singer\\solemnsinger\\solemnsinger\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alanm_070tplb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
