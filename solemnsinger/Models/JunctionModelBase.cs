@@ -5,7 +5,8 @@ using System.Threading.Tasks;
 
 namespace solemnsinger.Models
 {
-    public class Singer
+    public class JunctionModelBase
     {
+        public long Id { get; set; }
     }
 }
