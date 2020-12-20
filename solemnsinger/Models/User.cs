@@ -12,6 +12,7 @@ namespace solemnsinger.Models
 
         public AccessLevel AccessLevel { get; set; }
 
-        public IEnumerable<UserModifications> UserModifications { get; set; }
+        public Customer Customer { get; set; }
+        public long CustomerId { get; set; }
     }
 }

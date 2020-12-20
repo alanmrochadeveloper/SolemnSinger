@@ -11,6 +11,6 @@ namespace solemnsinger.Models
         public string Description { get; set; }
         public IEnumerable<Calendar> Calendars { get; set; }
 
-        public IEnumerable<CategoryModifications> CategoryModifications { get; set; }
+        
     }
 }

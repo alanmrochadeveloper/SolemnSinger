@@ -17,6 +17,6 @@ namespace solemnsinger.Models
         [Column(TypeName = "decimal(8,2)")]
         public decimal Price { get; set; }
 
-        public IEnumerable<SongModifications> SongModifications { get; set; }
+        public IEnumerable<ContractSongsJunction> ContractSongs { get; set; }
     }
 }

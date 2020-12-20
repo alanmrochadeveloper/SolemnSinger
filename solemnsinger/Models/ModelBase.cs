@@ -11,6 +11,6 @@ namespace solemnsinger.Models
         public DateTime CreateAt { get; set; }
         public DateTime LastTimeModified { get; set; }
         
-        //public IEnumerable<Modification> Modifications { get; set; }
+        
     }
 }

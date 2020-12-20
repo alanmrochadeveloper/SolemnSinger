@@ -13,8 +13,8 @@ namespace solemnsinger.Models
         public DbSet<Category> Categories { get; set; }
         public DbSet<Contract> Contracts { get; set; }
         public DbSet<Customer> Customers { get; set; }
-        public DbSet<Location> Locations { get; set; }
-        public DbSet<Modification> Modifications { get; set; }
+        //public DbSet<Location> Locations { get; set; }
+        
         public DbSet<Rule> Rules { get; set; }
         public DbSet<Song> Songs { get; set; }
         public DbSet<SongSinger> SongSingers { get;set; }

@@ -12,6 +12,6 @@ namespace solemnsinger.Models
 
         public IEnumerable<Term> Terms { get; set; }
 
-        public IEnumerable<RuleModifications> RuleModifications { get; set; }
+        
     }
 }

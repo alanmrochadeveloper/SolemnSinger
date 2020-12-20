@@ -13,6 +13,6 @@ namespace solemnsinger.Models
 
         public User User { get; set; }
         public long UserId { get; set; }
-        public IEnumerable<AccessLevelModifications> AccessLevelModifications { get; set; }
+        
     }
 }

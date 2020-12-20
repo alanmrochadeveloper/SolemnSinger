@@ -10,6 +10,6 @@ namespace solemnsinger.Models
         public string Name{ get;set;}
         public IEnumerable<Song> Songs { get; set; }
 
-        public IEnumerable<SongSingerModifications> SongSingerModifications { get; set; }
+        
     }
 }
