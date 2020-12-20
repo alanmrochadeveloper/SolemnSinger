@@ -17,5 +17,7 @@ namespace solemnsinger.Models
         public Category Category { get; set; }
         public long CategoryId { get; set; }
         public string CategorySuggestion { get; set;}//in case there is not a pre recorded category available, then the customer can suggest one
+
+        public IEnumerable<CalendarModifications> CalendarModifications { get; set; }
     }
 }

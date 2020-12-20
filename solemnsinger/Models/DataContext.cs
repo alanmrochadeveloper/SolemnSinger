@@ -22,10 +22,15 @@ namespace solemnsinger.Models
         public DbSet<User> Users { get; set; }
         protected override void OnModelCreating( ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Contract>().HasKey(c => new { c.LocationId, c.TermId });
+            //modelBuilder.Entity<Contract>().HasKey(c => new { c.LocationId, c.TermId });
+            //modelBuilder.Entity<Contract>().HasOne(c => c.EventLocation).WithOne(el => el.Contract).OnDelete(DeleteBehavior.Restrict);
+            //modelBuilder.Entity<Contract>().HasOne(c => c.Term).WithMany(t => t.Contracts).OnDelete(DeleteBehavior.Restrict);
 
-            modelBuilder.Entity<Contract>().HasOne(c => c.EventLocation).WithOne(el => el.Contract).OnDelete(DeleteBehavior.Restrict);
-            modelBuilder.Entity<Contract>().HasOne(c => c.Term).WithMany(t => t.Contracts).OnDelete(DeleteBehavior.Restrict);
+            //modelBuilder.Entity<AccessLevelModifications>().HasKey(alm => new { alm.AccessLevelId, alm.ModificationId });
+            //modelBuilder.Entity<AccessLevelModifications>().HasOne(alm => alm.AccessLevel).WithMany(al => al.AccessLevelModifications).HasForeignKey(alm => alm.AccessLevelId)
+            //    .OnDelete(DeleteBehavior.NoAction);
+            //modelBuilder.Entity<AccessLevelModifications>().HasOne(alm => alm.Modification).WithMany(m => m.AccessLevelModifications).HasForeignKey(alm => alm.ModificationId)
+            //    .OnDelete(DeleteBehavior.NoAction);
         }
     }
 }

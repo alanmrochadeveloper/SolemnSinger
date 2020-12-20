@@ -17,5 +17,7 @@ namespace solemnsinger.Models
 
         public Location Location { get; set; }
         public long LocationId { get; set; }
+
+        public IEnumerable<CustomerModifications> CustomerModifications { get; set; }
     }
 }

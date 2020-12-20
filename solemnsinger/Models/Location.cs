@@ -17,6 +17,8 @@ namespace solemnsinger.Models
         public Customer Customer { get; set; }
 
         public Contract Contract { get; set; }
-        
+
+        public IEnumerable<LocationModifications> LocationModifications { get; set; }
+
     }
 }

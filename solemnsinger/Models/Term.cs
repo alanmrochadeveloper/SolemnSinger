@@ -9,5 +9,7 @@ namespace solemnsinger.Models
 
         public IEnumerable<Rule> Rules { get; set; }
         public IEnumerable<Contract> Contracts { get; set; }
+
+        public IEnumerable<TermModifications> TermModifications { get; set; }
     }
 }

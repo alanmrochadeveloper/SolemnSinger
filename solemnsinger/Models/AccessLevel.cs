@@ -1,4 +1,6 @@
-﻿namespace solemnsinger.Models
+﻿using System.Collections.Generic;
+
+namespace solemnsinger.Models
 {
     public class AccessLevel : ModelBase
     {
@@ -11,5 +13,6 @@
 
         public User User { get; set; }
         public long UserId { get; set; }
+        public IEnumerable<AccessLevelModifications> AccessLevelModifications { get; set; }
     }
 }

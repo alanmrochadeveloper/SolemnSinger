@@ -11,5 +11,7 @@ namespace solemnsinger.Models
         public string Password { get; set; }
 
         public AccessLevel AccessLevel { get; set; }
+
+        public IEnumerable<UserModifications> UserModifications { get; set; }
     }
 }
