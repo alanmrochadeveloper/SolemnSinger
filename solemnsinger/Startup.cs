@@ -25,6 +25,7 @@ namespace solemnsinger
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRouting();
+            services.AddControllersWithViews();
             services.AddScoped<ApplicationInformation>();
             services.AddDbContext<DataContext>(options => { options.UseSqlServer(Configuration["ConnectionStrings:Default"]);  } );
         }
@@ -36,15 +37,12 @@ namespace solemnsinger
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            app.UseStaticFiles();
             app.UseRouting();
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapGet("/", async context =>
-                {
-                    await context.Response.WriteAsync("Hello World!");
-                });
+                endpoints.MapControllerRoute("Default","{Controller=Home}/{Action=Index}");
             });
         }
     }
